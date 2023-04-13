@@ -177,7 +177,7 @@ export default defineComponent({
 			closeDialog,
 			onCancel,
 			onSubmit,
-      formRef,
+      		formRef,
 			...toRefs(state),
 		};
 	},

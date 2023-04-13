@@ -71,7 +71,7 @@ interface TableDataRow {
   status:number;
   orderNum:number;
   createdAt:string;
-	children?:TableDataRow[];
+  children?:TableDataRow[];
 }
 interface TableDataState {
 	tableData: {
@@ -99,8 +99,8 @@ export default defineComponent({
 				param: {
 					pageNum: 1,
 					pageSize: 10,
-          deptName:'',
-          status:''
+          			deptName:'',
+          			status:''
 				},
 			},
 		});
